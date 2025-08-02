@@ -1,0 +1,63 @@
+body {
+
+    padding-top: 11%;
+    padding-left: 35%
+}
+
+.number{
+    width:100%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #3F4F44;
+}
+
+.maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 75%;
+    max-width: 450px;
+    height: 470px;
+    background-color:#3F4F44;
+    border: none;
+    border-radius: 10px;
+}
+
+.button{
+    padding: 15px 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-weight: 700;
+}
+
+.button button {
+    color: #A27B5C;
+    height: 80px ;
+    width: 80px;
+    border-radius: 6px;
+    border:none;
+    background-color:#2C3930;
+}
+
+.button .equal {
+    background-color: #A27B5C;
+    height: 80px;
+    color:#2C3930;
+    width: 165px;
+    font-weight: 700;
+}
+
+.number {
+    display: flex;
+    justify-content: end;
+}   
+
+.total {
+    font-size: 35px;
+}
+
+.transaction {
+    font-size: 20px;
+}
