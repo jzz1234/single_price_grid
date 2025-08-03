@@ -11,34 +11,36 @@
 <body>
     <div class="maindiv">
         <div class ="number">
-                <p class = "total"> 20 </p> 
+                <p class = "total" style="display:none"></p> 
                 <br>
-                <p class = "transaction"> 10 + 10 </p>        
+                <p class = "transaction" style="display:block"> </p>  
+                      
         </div>
-
         <div class ="button">
-            <button id="AC">AC</button>
-            <button id="X">X</button>
-            <button id="remainder">%</button>
-            <button id="divide">/</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button id="multiply">X</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button id="subtract">-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>0</button>
-            <button id ="addition"> + </button>
-            <button id="dot">.</button>
-            <button class ="equal" id="equal">=</button>
+            <button onclick="calculate('AC')">AC</button>
+            <button onclick="calculate('X')">⌫</button>
+            <button onclick="calculate('%')">%</button>
+            <button onclick="calculate('/')">/</button>
+            <button onclick="calculate('9')">9</button>
+            <button onclick="calculate('8')">8</button>
+            <button onclick="calculate('7')">7</button>
+            <button onclick="calculate('*')">×</button>
+            <button onclick="calculate('6')">6</button>
+            <button onclick="calculate('5')">5</button>
+            <button onclick="calculate('4')">4</button>
+            <button onclick="calculate('-')">−</button>
+            <button onclick="calculate('3')">3</button>
+            <button onclick="calculate('2')">2</button>
+            <button onclick="calculate('1')">1</button>
+            <button onclick="calculate('+')">+</button>
+            <button onclick="calculate('0')">0</button>
+            <button onclick="calculate('.')">.</button>
+            <button class="equal" onclick="calculate('=')">=</button>
         </div>
 
     </div>
+
+    <p class="math-tip" id="mathTip"></p>
 </body>
 
 </html>
